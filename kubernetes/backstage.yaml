@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backstage
-          image: yukccy-backstage:v1.0
+          image: [Your Backstage Image]
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
